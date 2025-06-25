@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: sans-serif;
+    background: rgb(61, 181, 246);
+}
+
+a {
+    font-family: arial;
+}
+
+
+h1 {
+    color: #f9d268;
+    background-color: green;
+
+    font-size: 3rem;
+    font-weight: bold;
+
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+
+    border:5px groove red;
+    padding: 20px;
+    margin: 50px;
+    
+}
+h2 {
+    font-size: 2rem;
+    color: violet;
+}
+h3 {
+    background-color: white;
+}
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+strong {
+    font-size: 2rem;
+}
+
+em {
+    font-size: 3rem;
+}
+
+div {
+    border: 5px solid green;
+}
+
+header {
+    border: 5px solid blue;
+}
+
+section {
+    border: 5px solid green;
+    margin-bottom:20px;
+    margin-right:20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.4);
+}
+
+section.sea {
+    background-color: turquoise;
+}
+
+section.sea h2 {
+    color: turquoise;
+    text-shadow: 0 0px 10px rgba(0,0,0, 0.8);
+}
+
+section.mountain {
+    background-color: lightgreen 
+}
+
+section.mountain h2 {
+    color: green;
+}
+
+section.pricing {
+    display: flex;
+    flex-direction: row;
+}
+
+section.pricing div {
+    flex: 1;
+}
+
+footer {
+    border: 5px solid orange;
+}
+
+@media screen and (max-width: 576px) {
+    /* móviles*/
+    body {
+        background: lightsalmon
+    }
+    section.pricing {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    /* pantallas extra grandes */
+    body {
+        width: 1440px;
+        margin: auto;
+    }
+}
